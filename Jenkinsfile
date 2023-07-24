@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git url: 'https://github.com/nareshh49/java-pipeline12.git'
+                git url: 'https://github.com/nareshh49/javaprogram.git'
+                https://github.com/nareshh49/javaprogram.git
                 sh 'ls -lart'
                 sh 'javac hello.java'
             }
